@@ -1,0 +1,23 @@
+{
+    "name": "nekokana/lishenna",
+    "description": "A server software for Neon",
+    "type": "project",
+    "authors": [
+        {
+            "name": "towa0131",
+            "email": "towa.towa0131@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "j4mie/idiorm": "^1.5",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lishenna\\": "src/",
+            "Lishenna\\utils\\": "src/utils/",
+            "Lishenna\\models\\": "src/models/"
+        }
+    }
+}
